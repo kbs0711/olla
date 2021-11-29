@@ -1,0 +1,818 @@
+
+
+/*main*/
+/* basic
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+main {
+  width: 100%;
+}
+
+.olla-main-banner {
+  background: linear-gradient(110deg, #01D265, #62CCCA);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.olla-main-banner h1 {
+  font-size: 5.63rem;
+  margin-top: 30vh;
+}
+.olla-main-banner h1 span {
+  white-space: nowrap;
+}
+
+.olla-main-banner p {
+  font-size: 2.5rem;
+  padding-top: 29px;
+  line-height: 3.63rem;
+}
+
+.olla-main-banner .btn-container {
+  background-color: white;
+  margin: 81px auto 0 auto;
+  width: 364px;
+  height: 75px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.olla-main-banner .btn-content {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #45CE99;
+  -webkit-text-fill-color: #45CE99;
+  opacity: 1;
+}
+
+.olla-main-banner .btn-down-arrow {
+  width: 29px;
+  height: 14.5px;
+  margin: 54px auto 40vh auto;
+}
+
+.olla-main-container {
+  margin: 30vh 8% 30vh 8%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.olla-main-container .introduction {
+  color: #20C05B;
+}
+
+.olla-main-container .introduction h2 {
+  font-size: 5.63rem;
+  margin-bottom: 10px;
+}
+.olla-main-container .introduction p {
+  font-size: 2.81rem;
+  font-weight: 700;
+  margin-bottom: 83px;
+}
+.olla-main-container .detail-container {
+  display: flex;
+  justify-content: center;
+}
+.olla-main-container .detail-container .item {
+  display: inline-block;
+  border-top: solid rgba(0, 0, 0, 0.5) 1px;
+  border-bottom: solid rgba(0, 0, 0, 0.5) 1px;
+  margin: 0 1% 0 1%;
+  padding: 27px 0 97px 0;
+}
+.olla-main-container .detail-container .item h3 {
+  font-size: 2rem;
+  margin-bottom: 11px;
+  white-space: nowrap;
+}
+.olla-main-container .detail-container .item p {
+  font-size: 1.5rem;
+}
+
+.olla-main-container-2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 250px 8%;
+}
+.olla-main-container-2 h2 {
+  font-size: 3.75rem;
+}
+.olla-main-container-2 p {
+  font-size: 1.5rem;
+  color: #86868B;
+  padding-top: 14px;
+}
+
+.olla-main-container-2 .swiper-father {
+  width: 76vw;
+  height: 57vh;
+  margin: 43px auto 0 auto;
+  position: relative;
+}
+.olla-main-container-2 .swiper-father .swiper-container {
+  width: 88%;
+  height: 100%;
+  border-radius: 20px;
+}
+.olla-main-container-2 .swiper-father .swiper-button-prev, .olla-main-container-2 .swiper-father .swiper-button-next {
+  color: #BCBCBC;
+}
+.olla-main-container-2 .swiper-father .swiper-button-prev {
+  transform: translateX(-30px);
+  z-index: 0;
+}
+.olla-main-container-2 .swiper-father .swiper-button-next {
+  transform: translateX(30px);
+  z-index: 0;
+}
+.olla-main-container-2 .swiper-father .swiper-container .swiper-pagination-bullet {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.olla-main-container-2 .swiper-father .swiper-container .swiper-pagination-bullet-active {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+.olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .background {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 75% 75%;
+}
+.olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide {
+  position: absolute;
+  top: 10%;
+  left: 8%;
+}
+.olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide h4 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.88rem;
+  color: white;
+}
+
+.olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide .btn-circle-plus {
+  display: none;
+}
+.olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+  margin-top: 20px;
+  padding: 0;
+  color: white;
+  display: none;
+  max-width: 50%;
+}
+.olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide .btn-circle-plus {
+  margin-top: 20px;
+}
+.olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .btn-content-close {
+  position: absolute;
+  top: 10%;
+  right: 8%;
+  display: none;
+}
+
+.olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .background.one {
+  background-image: url("./resources/olla_main_vr_tech_modeling_image_1.png");
+}
+.olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .background.two {
+  background-image: url("./resources/olla_main_vr_tech_modeling_image_2.png");
+}
+.olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .background.three {
+  background-image: url("./resources/olla_main_vr_tech_modeling_image_3.png");
+}
+
+.video-container {
+  width: 70vw;
+  margin: 250px auto 110px auto;
+  position: relative;
+}
+.video-container .video-viewer {
+  width: 100%;
+  height: 100%;
+}
+.video-container .video-play-toggle {
+  width: 36%;
+  height: 12%;
+  position: absolute;
+  top: 44%;
+  left: 32%;
+  z-index: 1;
+  background: linear-gradient(110deg, #01D265, #62CCCA);
+  border-radius: 100px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.video-container .video-play-toggle:hover {
+  background: black;
+}
+.video-container .video-play-toggle span {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #E5E5E5;
+}
+.footer h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333D4B;
+  margin-left: 8%;
+}
+.footer .company-introduction {
+  line-height: 1.5rem;
+  color: #B3B9C1;
+  margin-bottom: 20px;
+  margin-left: 8%;
+}
+.footer .sns-container {
+  position: static;
+  display: inline-block;
+  margin-left: 8%;
+  margin-bottom: 30px;
+}
+.footer .sns-container .sns-item {
+  width: 41px;
+  height: 41px;
+  border-radius: 9999px;
+  background-color: #B3B9C1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .sns-container .sns-item img {
+  width: 27px;
+  height: 27px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  .olla-main-banner .btn-down-arrow {
+    margin: 54px auto 50vh auto;
+  }
+  .olla-main-container {
+    margin: 40vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 1200px;
+  }
+  .olla-main-container-2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40vh auto;
+  }
+  .olla-main-container-2 .swiper-father {
+    width: 972px;
+    margin: 43px auto 0 auto;
+    position: relative;
+  }
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .olla-main-banner h1 {
+    margin-left: 8%;
+    margin-right: 8%;; 
+  }
+  .olla-main-container {
+    text-align: left;
+    margin: 40vh 6%;
+  }
+  .olla-main-container .detail-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .olla-main-container .detail-container .item {
+    display: flex;
+    flex-direction: column;
+    border-top: solid rgba(0, 0, 0, 0.5) 1px;
+    border-bottom: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .olla-main-container .detail-container .item h3 {
+    margin-bottom: 11px;
+    margin-top: 27px;
+  }
+  .olla-main-container .detail-container .item p {
+    margin-bottom: 58px;
+  }
+  .olla-main-container-2 {
+    margin: 150px 6%; 
+  }
+  .olla-main-container-2 .swiper-father {
+    width: 90vw;
+    height: 70vh;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container {
+    width: 100%;
+  }
+  .olla-main-container-2 .swiper-father .swiper-button-prev {
+    display: none;
+  }
+  .olla-main-container-2 .swiper-father .swiper-button-next {
+    display: none;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide h4 {
+    max-width: 600px;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide .btn-circle-plus {
+    width: 1.8rem;
+    height: 1.8rem;
+    display: inline-block;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide .btn-circle-plus img {
+    width: 1.8rem;
+    height: 1.8rem;
+    object-fit: cover;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .btn-content-close {
+    display: none;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide p {
+    max-width: 75%;
+  }
+  .video-container {
+    width: 96vw;
+    margin: 250px auto 100px auto;
+  }
+  .video-container .video-play-toggle {
+    width: 36%;
+    height: 12%;
+    position: absolute;
+    top: 44%;
+    left: 32%;
+    z-index: 1;
+    background: linear-gradient(110deg, #01D265, #62CCCA);
+    border-radius: 100px;
+  }
+  
+  .footer {
+    position: static;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E5E5;
+    margin-top: 50px;
+  }
+  
+  .footer .sns-container {
+    position: static;
+    margin-left: 8%;
+    margin-bottom: 30px;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .olla-main-container {
+    text-align: left;
+    margin: 30vh 6%;
+  }
+  .olla-main-container .detail-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .olla-main-container .detail-container .item {
+    display: flex;
+    flex-direction: column;
+    border-top: solid rgba(0, 0, 0, 0.5) 1px;
+    border-bottom: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .olla-main-container .detail-container .item h3 {
+    margin-bottom: 11px;
+    margin-top: 27px;
+  }
+  .olla-main-container .detail-container .item p {
+    margin-bottom: 58px;
+  }
+  .olla-main-container-2 {
+    margin: 150px 6%; 
+  }
+  
+  .olla-main-container-2 .swiper-father {
+    width: 90vw;
+    height: 78vh;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container {
+    width: 100%;
+  }
+  .olla-main-container-2 .swiper-father .swiper-button-prev {
+    display: none;
+  }
+  .olla-main-container-2 .swiper-father .swiper-button-next {
+    display: none;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide h4 {
+    max-width: 600px;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide .btn-circle-plus {
+    width: 1.8rem;
+    height: 1.8rem;
+    display: inline-block;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide .btn-circle-plus img {
+    width: 1.8rem;
+    height: 1.8rem;
+    object-fit: cover;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .btn-content-close {
+    display: none;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide p {
+    max-width: 75%;
+  }
+  .video-container {
+    width: 96vw;
+    margin: 250px auto 100px auto;
+  }
+  .video-container .video-play-toggle {
+    width: 36%;
+    height: 12%;
+    position: absolute;
+    top: 44%;
+    left: 32%;
+    z-index: 1;
+    background: linear-gradient(110deg, #01D265, #62CCCA);
+    border-radius: 100px;
+  }
+
+  .footer {
+    position: static;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E5E5;
+    margin-top: 50px;
+  }
+  
+  .footer .sns-container {
+    position: static;
+    margin-left: 8%;
+    margin-bottom: 30px;
+  }
+  
+}
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .olla-main-banner h1 {
+    font-size: 3.75rem;
+  }
+
+  .olla-main-banner p {
+    font-size: 1rem;
+    padding-top: 15px;
+    line-height: 1.54rem;
+  }
+
+  .olla-main-banner .btn-container {
+    width: 180px;
+    height: 37px;
+  }
+
+  .olla-main-banner .btn-content {
+    font-size: 0.94rem;
+  }
+  .olla-main-banner i {
+    margin-top: 28px;
+  }
+
+  .olla-main-banner .btn-down-arrow {
+    margin: 28px auto 30vh auto;
+  }
+
+  .olla-main-container {
+    text-align: left;
+    margin: 30vh 6%;
+  }
+  .olla-main-container .detail-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .olla-main-container .detail-container .item {
+    display: flex;
+    flex-direction: column;
+    border-top: solid rgba(0, 0, 0, 0.5) 1px;
+    border-bottom: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .olla-main-container .detail-container .item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 11px;
+    margin-top: 27px;
+  }
+  .olla-main-container .detail-container .item p {
+    font-size: 1rem;
+    margin-bottom: 58px;
+  }
+  .olla-main-container-2 {
+    margin: 150px 6%; 
+  }
+  .olla-main-container-2 h2 {
+    font-size: 2rem;
+  }
+  .olla-main-container-2 p {
+    font-size: 0.96rem;
+  }
+  .olla-main-container-2 .swiper-father {
+    width: 90vw;
+    height: 78vh;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container {
+    width: 100%;
+  }
+  .olla-main-container-2 .swiper-father .swiper-button-prev, .olla-main-container-2 .swiper-father .swiper-button-next {
+    display: none;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide h4 {
+    font-size: 1.29rem;
+    line-height: 1.8rem;
+    max-width: 230px;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide .btn-circle-plus {
+    width: 1.25rem;
+    height: 1.25rem;
+    display: inline-block;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide .btn-circle-plus img {
+    width: 1.25rem;
+    height: 1.25rem;
+    object-fit: cover;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .btn-content-close {
+    display: none;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide p {
+    font-size: 0.94rem;
+    max-width: 75%;
+    line-height: 1.2rem;
+  }
+  .video-container {
+    width: 96vw;
+    margin: 250px auto 100px auto;
+  }
+  .video-container .video-play-toggle {
+    width: 36%;
+    height: 12%;
+    position: absolute;
+    top: 44%;
+    left: 32%;
+    z-index: 1;
+    background: linear-gradient(110deg, #01D265, #62CCCA);
+    border-radius: 100px;
+  }
+  .video-container .video-play-toggle span {
+    font-size: 0.75rem;
+  }
+  .footer {
+    position: static;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E5E5;
+    margin-top: 50px;
+  }
+  
+  .footer .sns-container {
+    position: static;
+    margin-left: 8%;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (max-width: 480px) {
+  
+  .olla-main-banner h1 {
+    font-size: 3.75rem;
+  }
+
+  .olla-main-banner p {
+    font-size: 1rem;
+    padding-top: 15px;
+    line-height: 1.54rem;
+  }
+
+  .olla-main-banner .btn-container {
+    width: 180px;
+    height: 37px;
+  }
+
+  .olla-main-banner .btn-content {
+    font-size: 0.94rem;
+  }
+  .olla-main-banner i {
+    margin-top: 28px;
+  }
+
+  .olla-main-banner .btn-down-arrow {
+    margin: 28px auto 30vh auto;
+  }
+
+  .olla-main-container {
+    margin: 30vh 12.5% 30vh 12.5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .olla-main-container .introduction h2 {
+    font-size: 2.63rem;
+    margin-bottom: 10px;
+  }
+  .olla-main-container .introduction p {
+    font-size: 1.06rem;
+    margin-bottom: 46px;
+  }
+  .olla-main-container .detail-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .olla-main-container .detail-container .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-top: solid rgba(0, 0, 0, 0.5) 1px;
+    border-bottom: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .olla-main-container .detail-container .item h3 {
+    font-size: 0.88rem;
+    margin-bottom: 11px;
+    margin-top: 11px;
+  }
+  .olla-main-container .detail-container .item p {
+    font-size: 0.75rem;
+    margin-bottom: 31px;
+  }
+
+
+
+  .olla-main-container-2 h2 {
+    font-size: 2.19rem;
+  }
+  .olla-main-container-2 p {
+    font-size: 0.94rem;
+    padding-top: 14px;
+  }
+  
+  .olla-main-container-2 .swiper-father {
+    width: 86vw;
+    margin: 29px auto 0 auto;
+    height: 54vh;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container {
+    width: 100%;
+  }
+  .olla-main-container-2 .swiper-father .swiper-button-prev, .olla-main-container-2 .swiper-father .swiper-button-next {
+    display: none;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide h4 {
+    font-size: 1.29rem;
+    line-height: 1.8rem;
+    max-width: 230px;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide .btn-circle-plus {
+    width: 1.25rem;
+    height: 1.25rem;
+    display: inline-block;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide .btn-circle-plus img {
+    width: 1.25rem;
+    height: 1.25rem;
+    object-fit: cover;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .btn-content-close {
+    display: none;
+  }
+  .olla-main-container-2 .swiper-father .swiper-container .swiper-wrapper .swiper-slide .content-of-slide p {
+    font-size: 0.94rem;
+    max-width: 75%;
+    line-height: 1.2rem;
+  }
+
+  .video-container {
+    width: 96vw;
+    margin: 250px auto 100px auto;
+  }
+  .video-container .video-play-toggle {
+    width: 36%;
+    height: 12%;
+    position: absolute;
+    top: 44%;
+    left: 32%;
+    z-index: 10;
+    background: linear-gradient(110deg, #01D265, #62CCCA);
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  .video-container .video-play-toggle span {
+    font-size: 0.75rem;
+  }
+  
+  .footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E5E5;
+  }
+  .footer h4 {
+    margin-top: 18px;
+    margin-bottom: 16px;
+    font-size: 0.75rem;
+  }
+  .footer .company-introduction {
+    font-size: 0.65rem;
+    line-height: 1rem;
+    margin-bottom: 20px;
+  }
+  .footer .sns-container {
+    position: static;
+    margin-left: 8%;
+    margin-bottom: 30px;
+  }
+  .footer .sns-container .sns-item {
+    width: 29px;
+    height: 29px;
+  }
+  .footer .sns-container .sns-item img {
+    width: 19px;
+    height: 19px;
+  }
+  
+}
